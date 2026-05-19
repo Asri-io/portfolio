@@ -2,7 +2,7 @@
 
 > I build complete, production-ready web products. E-commerce, marketplaces, booking platforms, SaaS tools.
 >
-> 📧 [osarokiju@gmail.com](mailto:osarokiju@gmail.com) &nbsp;·&nbsp; 🌍 Nigeria, works remotely worldwide &nbsp;·&nbsp; ✅ Available for hire
+> 📧 [osarokiju@gmail.com](mailto:osarokiju@gmail.com) &nbsp;·&nbsp; 🌍 Works remotely worldwide &nbsp;·&nbsp; ✅ Available for hire
 
 ---
 
@@ -90,7 +90,7 @@ A full marketplace platform with:
 ## Let's Work Together
 
 - 📧 [osarokiju@gmail.com](mailto:osarokiju@gmail.com)
-- 🌍 Based in Nigeria — available to work with clients worldwide
+- 🌍 Works remotely with clients worldwide
 - ⚡ Fast turnaround, clean code, production-ready delivery
 - 💬 Clear communication throughout every project
 
