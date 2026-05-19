@@ -1,76 +1,97 @@
-# Portfolio — Precious (Asri-io)
+# Precious — Full-Stack Developer
 
-> Full-Stack Developer | Next.js · Node.js · React · Firebase
-> 
-> 📧 [osarokiju@gmail.com](mailto:osarokiju@gmail.com) · 🌍 Nigeria · Available for freelance worldwide
+> I build complete, production-ready web products. E-commerce, marketplaces, booking platforms, SaaS tools.
+>
+> 📧 [osarokiju@gmail.com](mailto:osarokiju@gmail.com) &nbsp;·&nbsp; 🌍 Nigeria, works remotely worldwide &nbsp;·&nbsp; ✅ Available for hire
 
 ---
 
-## Projects
+## Project 1 — LUMINA: Luxury Organic Soap E-Commerce Platform
 
-### 1. LUMINA — Luxury Organic Soap E-Commerce Platform
+**What the client needed:** A complete online store for a luxury organic soap brand — not just a product listing, but a full shopping experience with custom orders, payments, and backend management.
 
-> A complete e-commerce solution built for a luxury organic soap brand.
+**What I built:**
 
-**What it does:**
-- Full product catalogue with category filtering, pagination, and stock management
-- Persistent cart (guest + authenticated users)
-- Dual payment gateway — Paystack primary with automatic Flutterwave fallback
-- Custom soap request form (scent, color, size, quantity, special instructions)
-- Customer accounts with order history and transaction tracking
-- Full admin dashboard — product CRUD, Cloudinary image uploads, order management, custom request management, sales stats
-- Email notifications to admin on new orders and custom requests
-- JWT authentication with separate customer and admin token secrets
-- Rate limiting on auth routes, HMAC webhook signature verification
+A production-grade full-stack e-commerce platform with:
+
+- Storefront with product catalogue, category filtering, pagination, and stock management
+- Persistent cart that works for both guests and logged-in users
+- Checkout with **dual payment gateway** — Paystack as primary, Flutterwave as automatic fallback (so the store never goes down if one gateway has issues)
+- Custom soap request form — customers can specify scent, color, size, quantity, and special instructions
+- Customer accounts with full order history and transaction tracking
+- Complete **admin dashboard** — add/edit/delete products with Cloudinary image uploads, manage orders, handle custom requests, view sales stats
+- Automated email notifications to admin on every new order and custom request
+- Secure JWT authentication with separate secrets for customers and admins
+- Rate limiting on auth routes, HMAC webhook signature verification for payment security
 
 **Tech Stack:**
+
 | Layer | Technology |
 |-------|-----------|
-| Frontend | Next.js 14, TypeScript, Tailwind CSS |
+| Frontend | Next.js 14 (App Router), TypeScript, Tailwind CSS |
 | Backend | Node.js, Express, MongoDB (Mongoose) |
-| Auth | JWT (jsonwebtoken, bcryptjs) |
+| Auth | JWT — separate customer & admin secrets |
 | Payments | Paystack + Flutterwave (auto-fallback) |
 | Images | Cloudinary |
 | Email | Nodemailer (Gmail SMTP) |
-| Hosting | Vercel (frontend), Render (backend) |
-| Testing | Vitest + Testing Library, Jest + fast-check |
+| Hosting | Vercel (frontend) + Render (backend) |
+| Testing | Vitest + Testing Library · Jest + fast-check |
 
-> 🔒 Source code is private. Contact me for a live demo or walkthrough.
+> 🔒 Source code is private. [Email me](mailto:osarokiju@gmail.com) to request a live demo or full walkthrough.
 
 ---
 
-### 2. ChefHub — Chef Booking & Food Ordering Platform
+## Project 2 — ChefHub: Chef Booking & Food Ordering Marketplace
 
-> A marketplace platform connecting clients with professional chefs for bookings and food orders.
+**What the client needed:** A two-sided marketplace where customers can discover professional chefs, browse their menus, place food orders, and book them for events — all in one polished platform.
 
-**What it does:**
-- Chef discovery and booking system
-- Food menu browsing and ordering
-- Stripe payment integration
-- Firebase backend (Firestore, Auth)
-- Booking management and order tracking
-- Admin panel for managing chefs, bookings, and orders
-- Animated, modern UI with Framer Motion
-- Customer profiles and booking history
+**What I built:**
+
+A full marketplace platform with:
+
+- Chef discovery and profile pages
+- Food menu browsing and ordering system
+- **Stripe payment integration** for secure checkout
+- Booking system with scheduling and availability management
+- Order tracking and booking history for customers
+- **Admin panel** for managing chefs, bookings, orders, and platform activity
+- Customer profiles with booking and order history
+- Smooth, modern UI with **Framer Motion** animations throughout
+- Real-time data with Firebase Firestore
 
 **Tech Stack:**
+
 | Layer | Technology |
 |-------|-----------|
 | Frontend | Next.js 14, TypeScript, Tailwind CSS |
-| Backend | Firebase (Firestore, Auth) |
+| Backend | Firebase (Firestore + Auth) |
 | Payments | Stripe |
 | Animations | Framer Motion |
-| State | Zustand |
+| State Management | Zustand |
 | Hosting | Vercel |
 
-> 🔒 Source code is private. Contact me for a live demo or walkthrough.
+🌐 **Live Demo:** [chefhub-six.vercel.app](https://chefhub-six.vercel.app)
+
+> 🔒 Source code is private. [Email me](mailto:osarokiju@gmail.com) to request a walkthrough.
 
 ---
 
-## Hire Me
+## What I Can Build For You
 
-I'm available for freelance and contract work — web apps, e-commerce platforms, APIs, and full-stack projects.
+| Project Type | Details |
+|-------------|---------|
+| **E-Commerce Store** | Full storefront, cart, checkout, payment integration, admin dashboard |
+| **Booking / Marketplace** | Two-sided platforms, scheduling, payments, user roles, admin panel |
+| **SaaS / Web App** | Auth systems, dashboards, CRMs, internal tools, API integrations |
+| **REST API** | Authentication, rate limiting, webhooks, third-party service integrations |
+
+---
+
+## Let's Work Together
 
 - 📧 [osarokiju@gmail.com](mailto:osarokiju@gmail.com)
-- 🌍 Based in Nigeria, works remotely worldwide
-- ✅ Open to: startups, businesses, agencies, and individual clients
+- 🌍 Based in Nigeria — available to work with clients worldwide
+- ⚡ Fast turnaround, clean code, production-ready delivery
+- 💬 Clear communication throughout every project
+
+**[→ Back to GitHub Profile](https://github.com/Asri-io)**
