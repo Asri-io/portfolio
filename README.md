@@ -255,40 +255,60 @@
 
 ---
 
-## 🎮 Project 5 — MC Server
+## ⚔️ Project 5 — QuestForge
 
-### Paper Minecraft Server Setup
+### Minecraft Quest Engine Plugin
 
-> **The brief:** Stand up a production-configured Paper Minecraft server with security hardening, performance tuning, and a clean automated startup script.
+> **The brief:** Build a fully-featured, server-ready Minecraft quest plugin from scratch — complete with a GUI editor, NPC integration, economy rewards, multi-database support, and a clean plugin API that other developers can extend.
 
 <table>
   <tr>
     <td><b>Type</b></td>
-    <td>Server Infrastructure / DevOps</td>
+    <td>Java Plugin / Game Systems Engineering</td>
   </tr>
   <tr>
     <td><b>Stack</b></td>
-    <td>PaperMC 26.1.2 · Java · Batch scripting · YAML configuration</td>
+    <td>Java 17 · PaperMC API · SQLite · MySQL · PostgreSQL · HikariCP · Citizens2 · Vault · PlaceholderAPI · JUnit · Maven</td>
+  </tr>
+  <tr>
+    <td><b>Build</b></td>
+    <td>QuestForge-1.0.0.jar — drop-in Paper/Spigot plugin</td>
   </tr>
 </table>
 
 **What was built:**
 
-- ⚡ **PaperMC** — high-performance Minecraft server fork with anti-cheat and chunk optimisation
-- 🔐 **Security hardened** — `online-mode=true` (Mojang auth enforced), packet rate limiting, RCON disabled, secrets excluded from repo via `.gitignore`
-- 🚀 **Performance tuned** — custom chunk loading rates, send/generate rate caps, region file compression, simulation and view distance configured
-- 📦 **Anti-cheat config** — item obfuscation, packet limiter with DROP/KICK actions, connection throttling
-- 🖥️ **Automated startup** — `start.bat` with JVM memory flags (`-Xms1G -Xmx2G`) and `--nogui` headless mode
-- 🗂️ **Clean repo hygiene** — ops, bans, whitelist, and world data all `.gitignore`d; no secrets committed
+- 📜 **Multi-stage quest system** — quests broken into stages, each with multiple objectives (kill mobs, craft items, reach locations, interact with NPCs)
+- 🖥️ **In-game GUI editor** — admins build and edit quests entirely through a chest inventory UI — no config file editing required
+- 🧑‍💼 **Citizens2 NPC integration** — assign quests to NPCs; players accept and turn in quests by right-clicking characters in the world
+- 💰 **Vault economy rewards** — give players XP, items, and currency on quest completion; inventory-full fallback drops items at feet
+- 📊 **Boss bar + title notifications** — real-time objective progress displayed on screen with configurable duration
+- 🗄️ **Triple database support** — SQLite (default), MySQL, and PostgreSQL via HikariCP connection pooling; hot-swappable via config
+- 📐 **Clean plugin architecture** — EventBus, Repository pattern, Service layer, typed Config wrapper; zero hard-coded strings
+- 🔌 **PlaceholderAPI support** — expose quest progress variables to scoreboards, holograms, and other plugins
+- ⏱️ **Cooldown system** — per-quest cooldowns with async scheduler reset
+- ✅ **Full test suite** — JUnit tests for Config, EventBus, all Services, and SQL Repository integration
 
 <p align="center">
+  <img src="https://img.shields.io/badge/-Java%2017-ED8B00?style=flat&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/-PaperMC-F7DF1E?style=flat&logoColor=black" />
-  <img src="https://img.shields.io/badge/-Java-ED8B00?style=flat&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/-Batch%20Script-4D4D4D?style=flat&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/-YAML%20Config-CB171E?style=flat" />
+  <img src="https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/-HikariCP-000?style=flat" />
+  <img src="https://img.shields.io/badge/-Citizens2-6B4FBB?style=flat" />
+  <img src="https://img.shields.io/badge/-Vault-F5A623?style=flat" />
+  <img src="https://img.shields.io/badge/-Maven-C71A36?style=flat&logo=apache-maven&logoColor=white" />
+  <img src="https://img.shields.io/badge/-JUnit-25A162?style=flat&logo=junit5&logoColor=white" />
 </p>
 
-> 🔒 Repo is private. [Email me](mailto:osarokiju@gmail.com) for details.
+<p align="center">
+  <a href="mailto:osarokiju@gmail.com">
+    <img src="https://img.shields.io/badge/Request%20Demo-A78BFA?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+> 🔒 Source code is private. [Email me](mailto:osarokiju@gmail.com) for a walkthrough or to discuss licensing for your server.
 
 ---
 
