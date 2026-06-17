@@ -255,6 +255,43 @@
 
 ---
 
+## 🎮 Project 5 — MC Server
+
+### Paper Minecraft Server Setup
+
+> **The brief:** Stand up a production-configured Paper Minecraft server with security hardening, performance tuning, and a clean automated startup script.
+
+<table>
+  <tr>
+    <td><b>Type</b></td>
+    <td>Server Infrastructure / DevOps</td>
+  </tr>
+  <tr>
+    <td><b>Stack</b></td>
+    <td>PaperMC 26.1.2 · Java · Batch scripting · YAML configuration</td>
+  </tr>
+</table>
+
+**What was built:**
+
+- ⚡ **PaperMC** — high-performance Minecraft server fork with anti-cheat and chunk optimisation
+- 🔐 **Security hardened** — `online-mode=true` (Mojang auth enforced), packet rate limiting, RCON disabled, secrets excluded from repo via `.gitignore`
+- 🚀 **Performance tuned** — custom chunk loading rates, send/generate rate caps, region file compression, simulation and view distance configured
+- 📦 **Anti-cheat config** — item obfuscation, packet limiter with DROP/KICK actions, connection throttling
+- 🖥️ **Automated startup** — `start.bat` with JVM memory flags (`-Xms1G -Xmx2G`) and `--nogui` headless mode
+- 🗂️ **Clean repo hygiene** — ops, bans, whitelist, and world data all `.gitignore`d; no secrets committed
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-PaperMC-F7DF1E?style=flat&logoColor=black" />
+  <img src="https://img.shields.io/badge/-Java-ED8B00?style=flat&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Batch%20Script-4D4D4D?style=flat&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/-YAML%20Config-CB171E?style=flat" />
+</p>
+
+> 🔒 Repo is private. [Email me](mailto:osarokiju@gmail.com) for details.
+
+---
+
 ## 💼 What I Can Build For You
 
 | | Project Type | What's Included |
